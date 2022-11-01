@@ -5,7 +5,6 @@ configuration file.
 The envoy configuration file is meant to accept grpc-web connections at port
 8000 and forward them to port 127.0.0.1:55051.
 
-Use:
 	
 	<code>sudo docker build . -t echo_envoy</code>
 
